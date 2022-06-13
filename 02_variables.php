@@ -23,3 +23,17 @@
 - Variables are case-sensitive ($name and $NAME are two different variables)
 */
 
+$name = 'brad'; //String
+$age = 40; //Integer
+$has_kids = true; //Boolean
+$cash_on_hand = 20.75; //Float
+
+// echo $name . ' is ' . $age . ' years old'; 
+
+// echo "$name is $age years old" ;
+
+// echo 5 + 5;
+
+define('HOST', 'localhost');
+
+echo HOST;
